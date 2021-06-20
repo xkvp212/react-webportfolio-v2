@@ -12,55 +12,56 @@
     justify-content: center;
     align-items: center;
 
-    .wrapper{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-content: center;
-        align-items: center;
-        position: relative;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      justify-content: center;
+      align-items: center;
+      position: relative;
 
-        h1 {
-            font-size: 50px;
-            color: white;
-            margin: 15px 0;
-            letter-spacing: 3px;
+      h1 {
+        font-size: 50px;
+        color: white;
+        margin: 15px 0;
+        letter-spacing: 3px;
+        text-align: center;
 
-            span {
-                font-size: 50px;
-                color: white;
-                margin: 10px 0;
-                letter-spacing: 3px;
-              }
-            .ityped-cursor {
-                animation: blink 1s infinite;
-            }  
+        span {
+          font-size: 50px;
+          color: white;
+          margin: 10px 0;
+          letter-spacing: 3px;
+        }
+        .ityped-cursor {
+          animation: blink 1s infinite;
+        }
 
-            @keyframes blink {
-                50% {
-                    opacity: 1;
-                }
-                100% {
-                    opacity: 0;
-                }
-            }
+        @keyframes blink {
+          50% {
+            opacity: 1;
           }
+          100% {
+            opacity: 0;
+          }
+        }
+      }
     }
     a {
-    position: absolute;
-    bottom: 10px;
-       
-        .arrow-icon{
-            font-size: 70px;
-            color: white;
-            animation: arrowBlink 2s infinite;
-        }
+      position: absolute;
+      bottom: 10px;
 
-        @keyframes arrowBlink {
-            100%{
-                opacity: 0;
-            }
+      .arrow-icon {
+        font-size: 70px;
+        color: white;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
         }
+      }
     }
   }
 }

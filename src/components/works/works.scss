@@ -1,5 +1,29 @@
+@import "../../global.scss";
+
 .works {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: $mainColor;
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .items {
+        width: 700px;
+        height: 350px;
+        background-color: white;
+        border-radius: 20px;
+      }
+    }
+  }
 }

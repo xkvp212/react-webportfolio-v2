@@ -2,10 +2,10 @@ import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
 import Works from "./components/works/Works";
-import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import "./app.scss";
 import Menu from "./components/menu/Menu";
+import { FormspreeProvider } from "@formspree/react";
 
 import { useState } from "react";
 function App() {
@@ -18,8 +18,9 @@ function App() {
         <Intro />
         <About />
         <Works />
-        <Blog />
-        <Contact />
+        <FormspreeProvider project="1711037947509210340">
+          <Contact />
+        </FormspreeProvider>
       </div>
     </div>
   );

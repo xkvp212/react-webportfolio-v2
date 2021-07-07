@@ -1,0 +1,13 @@
+{
+  "forms": {
+    "contactMe": {
+      "name": "Contact Me",
+      "actions": [{ "type": "email", "to": "kevinpacis001@gmail.com" }],
+      "fields": {
+        "email": {
+          "required": true
+        }
+      }
+    }
+  }
+}

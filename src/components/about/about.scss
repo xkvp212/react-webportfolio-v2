@@ -5,9 +5,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1.6fr 1fr;
-    gap: 20px 100px;
+    gap: 50px 100px;
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 120px);
+    padding-top: 30px;
 
     div {
     }

@@ -81,6 +81,12 @@
     align-items: center;
     justify-content: space-around;
 
+    .icon-wrapper {
+      width: 200px;
+      display: flex;
+      justify-content: space-around;
+    }
+
     p {
       color: grey;
       font-size: 13px;

@@ -10,16 +10,16 @@
     height: calc(100vh - 120px);
     padding-top: 30px;
 
-    div {
-    }
     .left {
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      overflow: hidden;
       .img-container {
         img {
           width: 260px;
-          height: 350px;
+          height: 335px;
+          border-radius: 15px;
         }
       }
     }
@@ -27,6 +27,7 @@
     .right {
       display: flex;
       align-items: center;
+      overflow: hidden;
       .wrapper {
         width: 350px;
         height: 350px;

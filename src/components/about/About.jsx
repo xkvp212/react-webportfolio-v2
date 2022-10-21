@@ -7,7 +7,7 @@ import {
   FaGitSquare,
   FaSass,
   FaPython,
-  FaStackOverflow
+  FaAws
 } from "react-icons/fa";
 
 export default function About() {
@@ -16,18 +16,18 @@ export default function About() {
       <div className="container">
         <div className="left">
           <div className="img-container">
-            <img src="assets/cowmoo.jpg" alt="KevinPacis Selfie" />
+            <img src="assets/kevinp.jpg" alt="KevinPacis Selfie" />
           </div>
         </div>
         <div className="right">
           <div className="wrapper">
             <h1>About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              scelerisque volutpat mauris efficitur sagittis. Aliquam posuere
-              odio nec risus feugiat, eget tempus urna tincidunt. Aliquam dictum
-              ex ac pretium euismod. Donec cursus lorem ut gravida pharetra.
-              Maecenas gravida, erat a iaculis mattis, nisi lacus lacinia urna,
+              When I'm not coding or working in the cloud, I am an avid learner
+              of all things novel and interesting. I like to tinker around
+              computers. I enjoy all sorts of sports like cycling, pool, skate,
+              etc. I play the guitar, piano, clarinet, etc. I dabble in hobbies
+              like modern Yo-yos, wakeboarding, mushroom growing, etc.
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function About() {
             <FaGitSquare size="70" />
             <FaSass size="70" />
             <FaPython size="70" />
-            <FaStackOverflow size="70" />
+            <FaAws size="70" />
           </div>
         </div>
       </div>

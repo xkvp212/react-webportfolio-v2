@@ -13,7 +13,7 @@ export default function Contact() {
 
   if (state.succeeded) {
     return (
-      <div className="message-sent" id="contanct">
+      <div className="message-sent" id="contact">
         <FaCheckCircle className="check-logo" size="70" />
         <p className="message-thanks">Thank You!</p>
         <p>Your message has been sent. I will get back to you ASAP</p>

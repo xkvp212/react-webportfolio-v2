@@ -11,7 +11,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 2000,
       backspeed: 55,
-      strings: ["Full-stack Dev", "Designer", "Lifelong Learner"]
+      strings: ["Full-stack Dev", "AWS Certified", "Lifelong Learner"]
     });
   }, []);
   return (

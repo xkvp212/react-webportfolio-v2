@@ -36,14 +36,14 @@ export default function About() {
             <h1>Professional Skills</h1>
           </div>
           <div className="sm-wrapper">
-            <FaHtml5 size="70" />
-            <FaCss3Alt size="70" />
-            <FaJsSquare size="70" />
-            <FaReact size="70" />
-            <FaGitSquare size="70" />
-            <FaSass size="70" />
-            <FaPython size="70" />
-            <FaAws size="70" />
+            <FaHtml5 className="icons" />
+            <FaCss3Alt className="icons" />
+            <FaJsSquare className="icons" />
+            <FaReact className="icons" />
+            <FaGitSquare className="icons" />
+            <FaSass className="icons" />
+            <FaPython className="icons" />
+            <FaAws className="icons" />
           </div>
         </div>
       </div>

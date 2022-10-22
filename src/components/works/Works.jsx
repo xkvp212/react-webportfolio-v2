@@ -9,26 +9,26 @@ export default function Works() {
       id: "1",
       title: "2x AWS Certified",
       desc:
-        "AWS Solutions Architect Associate and AWS Cloud Practitioner Certified. Preparing for AWS Developers Associate",
-      img: "assets/aws-badges1.png"
+        "AWS SAA✔️,AWS CCP✔️, and currently preparing for the AWS Developer Associate Exam",
+      img: "assets/aws-badges1.png",
+      link: "https://www.credly.com/users/kevin-pacis"
     },
     {
       id: "2",
-
       title: "Serverless Messaging App",
       desc:
         "A serverless application for sending email or SMS. S3, CloudFront, Route53, Lambda, StepFunctions, SES, SNS, Api Gateway. GitHub Actions for CI/CD",
       img: "assets/serverless-sending-app1.png",
-      link: "https://cloudprojects.site"
+      link: "https://cloudprojects.site",
+      codeurl: ""
     },
     {
       id: "3",
-
       title: "Portfolio WebApp",
       desc:
-        "No Bootstrap! This website is done completely from scratch with ReactJS framework! GitHub Actions for CI/CD",
+        "No Bootstrap! This mobile-responsive webapp is done completely from scratch with ReactJS framework! GitHub Actions for CI/CD",
       img: "assets/portfolio-webapp1.png",
-      codeurl: ""
+      codeurl: "https://github.com/xkvp212/react-webportfolio-v2"
     }
   ];
 

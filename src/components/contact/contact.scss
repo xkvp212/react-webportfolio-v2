@@ -81,23 +81,33 @@
     align-items: center;
     justify-content: space-around;
 
-    .icon-wrapper {
-      width: 200px;
-      display: flex;
-      justify-content: space-around;
-    }
-
     p {
       color: grey;
       font-size: 13px;
+
+      @include mobile {
+        font-size: 12px;
+      }
     }
 
     a {
       text-decoration: none;
       color: inherit;
     }
-    icon {
-      cursor: pointer;
+
+    .icon-wrapper {
+      width: 200px;
+      display: flex;
+      justify-content: space-around;
+
+      icon {
+        cursor: pointer;
+        font-size: 40px;
+
+        @include mobile {
+          font-size: 30px;
+        }
+      }
     }
   }
 }

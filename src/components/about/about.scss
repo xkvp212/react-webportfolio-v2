@@ -10,16 +10,37 @@
     height: calc(100vh - 120px);
     padding-top: 30px;
 
+    @include mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      align-content: center;
+      margin: 0px;
+      height: 800px;
+      padding-top: 0;
+    }
+
     .left {
       display: flex;
       justify-content: flex-end;
       align-items: center;
       overflow: hidden;
+
+      @include mobile {
+        justify-content: center;
+      }
       .img-container {
         img {
           width: 260px;
           height: 335px;
           border-radius: 15px;
+
+          @include mobile {
+            width: 150px;
+            height: 200px;
+            border-radius: 25px;
+          }
         }
       }
     }
@@ -28,13 +49,33 @@
       display: flex;
       align-items: center;
       overflow: hidden;
+
+      @include mobile {
+      }
       .wrapper {
         width: 350px;
         height: 350px;
 
+        @include mobile {
+          width: 300px;
+          height: 250px;
+        }
+
         h1 {
           color: $mainColor;
           padding-bottom: 20px;
+
+          @include mobile {
+            font-size: 15px;
+            padding-bottom: 10px;
+            text-align: center;
+          }
+        }
+        p {
+          @include mobile {
+            font-size: 12px;
+            text-align: center;
+          }
         }
       }
     }
@@ -45,16 +86,33 @@
       justify-content: space-evenly;
       align-items: center;
       flex-direction: column;
+      align-content: stretch;
+
+      @include mobile {
+        height: 150px;
+        width: 360px;
+      }
 
       .title {
         color: $mainColor;
         font-weight: 900;
+
+        @include mobile {
+          font-size: 10px;
+        }
       }
       .sm-wrapper {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+
+        .icons {
+          font-size: 65px;
+          @include mobile {
+            font-size: 40px;
+          }
+        }
       }
     }
   }

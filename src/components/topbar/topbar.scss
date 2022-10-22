@@ -25,12 +25,20 @@
         font-weight: 900;
         text-decoration: none;
         color: inherit;
+
+        @include mobile {
+          font-size: 32px;
+        }
       }
 
       .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 30px;
+
+        @include mobile {
+          display: none;
+        }
 
         .icon {
           font-size: 15.5px;

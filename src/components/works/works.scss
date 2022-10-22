@@ -7,10 +7,19 @@
   background-color: $mainColor;
   position: relative;
 
+  @include mobile {
+    padding-top: 650px;
+    padding-bottom: 150px;
+  }
+
   .arrow {
     height: 100px;
     position: absolute;
     cursor: pointer;
+
+    @include mobile {
+      display: none;
+    }
 
     &.left {
       left: 100px;
@@ -22,11 +31,17 @@
   }
 
   .slider {
-    height: 450px;
+    height: 480px;
     display: flex;
     position: absolute;
     left: 0;
     transition: all 1s ease-out;
+
+    @include mobile {
+      height: 2000px;
+      flex-direction: column;
+      justify-content: center;
+    }
 
     .container {
       width: 100vw;
@@ -42,12 +57,25 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include mobile {
+          width: 90%;
+          height: 520px;
+          flex-direction: column-reverse;
+          justify-content: center;
+          margin: 75px 0;
+        }
         .left {
           flex: 4;
           height: 65%;
           display: flex;
           align-items: center;
           justify-content: flex-end;
+
+          @include mobile {
+            justify-content: center;
+            flex: 5;
+          }
 
           .leftContainer {
             width: 75%;
@@ -60,15 +88,28 @@
           h2 {
             font-size: 20px;
             color: $mainColor;
+
+            @include mobile {
+              text-align: center;
+            }
           }
           p {
             font-size: 13px;
+            @include mobile {
+              text-align: center;
+            }
           }
 
           .projectUrls {
             display: flex;
             justify-content: space-between;
             width: 75%;
+            @include mobile {
+              margin-bottom: 15px;
+              justify-content: space-around;
+              align-items: center;
+              width: 100%;
+            }
           }
           a {
             color: black;
@@ -86,9 +127,17 @@
         justify-content: center;
         align-items: center;
 
+        @include mobile {
+          flex: 7;
+        }
+
         img {
           width: 475px;
           overflow: hidden;
+
+          @include mobile {
+            width: 340px;
+          }
         }
       }
     }

@@ -20,7 +20,7 @@ export default function Works() {
         "A serverless application for sending email or SMS. S3, CloudFront, Route53, Lambda, StepFunctions, SES, SNS, Api Gateway. GitHub Actions for CI/CD",
       img: "assets/serverless-sending-app1.png",
       link: "https://cloudprojects.site",
-      codeurl: ""
+      codeurl: "https://github.com/xkvp212/aws-messaging-app"
     },
     {
       id: "3",

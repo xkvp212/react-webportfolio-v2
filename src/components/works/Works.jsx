@@ -17,7 +17,7 @@ export default function Works() {
       id: "2",
       title: "Serverless Messaging App",
       desc:
-        "A serverless application for sending email or SMS. S3, CloudFront, Route53, Lambda, StepFunctions, SES, SNS, Api Gateway. GitHub Actions for CI/CD",
+        "A serverless application for sending email or SMS. S3, CloudFront, Route53, Lambda, StepFunctions, SES, SNS, Api Gateway",
       img: "assets/serverless-sending-app1.png",
       link: "https://cloudprojects.site",
       codeurl: "https://github.com/xkvp212/aws-messaging-app"
@@ -26,7 +26,7 @@ export default function Works() {
       id: "3",
       title: "Portfolio WebApp",
       desc:
-        "No Bootstrap! This mobile-responsive webapp is done completely from scratch with ReactJS framework! GitHub Actions for CI/CD",
+        "No Bootstrap! This mobile-responsive webapp is done completely from scratch with ReactJS framework!",
       img: "assets/portfolio-webapp1.png",
       codeurl: "https://github.com/xkvp212/react-webportfolio-v2"
     }

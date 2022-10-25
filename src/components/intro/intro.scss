@@ -65,6 +65,10 @@
         font-size: 70px;
         color: white;
         animation: arrowBlink 2s infinite;
+
+        @include mobile {
+          display: none;
+        }
       }
 
       @keyframes arrowBlink {

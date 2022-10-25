@@ -1,3 +1,11 @@
+$width: 768px;
+
+@mixin mobile {
+  @media (max-width: #{$width}) {
+    @content;
+  }
+}
+
 .app {
   height: 100vh;
 
@@ -9,6 +17,7 @@
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; //firefox
+
     &::-webkit-scrollbar {
       display: none;
     }

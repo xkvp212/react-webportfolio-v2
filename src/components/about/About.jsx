@@ -26,13 +26,7 @@ export default function About() {
               As a lifelong learner and tech enthusiast, I am constantly seeking
               out new and exciting challenges. Whether it's coding, working in
               the cloud, or tinkering with computers, I am always looking for
-              ways to expand my knowledge and skills. Outside of work, I am an
-              avid sports enthusiast, with a particular passion for cycling,
-              skateboarding, and pool. I also have a strong interest in music,
-              having played multiple instruments including the guitar, piano,
-              and clarinet. In my free time, I enjoy exploring other hobbies and
-              interests, such as modern yo-yo tricks, wakeboarding, and mushroom
-              cultivation.
+              ways to expand my knowledge and skills.
             </p>
           </div>
         </div>

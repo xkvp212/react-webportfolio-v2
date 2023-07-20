@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/kevinpacis.com/static/css/main.cb4ecce4.css",
-    "main.js": "/kevinpacis.com/static/js/main.15da7304.js",
-    "index.html": "/kevinpacis.com/index.html",
-    "main.cb4ecce4.css.map": "/kevinpacis.com/static/css/main.cb4ecce4.css.map",
-    "main.15da7304.js.map": "/kevinpacis.com/static/js/main.15da7304.js.map"
+    "main.css": "/static/css/main.cb4ecce4.css",
+    "main.js": "/static/js/main.15da7304.js",
+    "index.html": "/index.html",
+    "main.cb4ecce4.css.map": "/static/css/main.cb4ecce4.css.map",
+    "main.15da7304.js.map": "/static/js/main.15da7304.js.map"
   },
   "entrypoints": [
     "static/css/main.cb4ecce4.css",

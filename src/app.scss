@@ -11,12 +11,16 @@ $width: 768px;
 
   .sections {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 75px);
     position: relative;
-    top: 70px;
+    top: 75px;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; //firefox
+
+    @include mobile {
+      height: calc(100vh - 60px);
+    }
 
     &::-webkit-scrollbar {
       display: none;

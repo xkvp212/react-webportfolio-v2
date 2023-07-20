@@ -4,14 +4,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $mainColor;
   position: relative;
 
   @include mobile {
     padding-top: 700px;
     padding-bottom: 200px;
   }
+  .title {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 20px;
 
+    h1 {
+      color: $mainColor;
+    }
+  }
   .arrow {
     height: 100px;
     position: absolute;
@@ -34,6 +42,7 @@
     height: 450px;
     display: flex;
     position: absolute;
+
     left: 0;
     transition: all 1s ease-out;
 
@@ -45,15 +54,19 @@
 
     .container {
       width: 100vw;
+
       display: flex;
       align-items: center;
       justify-content: center;
 
       .item {
         width: 800px;
-        height: 100%;
-        border-radius: 20px;
+        height: 99%;
+        border-color: rgb(243, 243, 243);
         background-color: white;
+        border-radius: 20px;
+        border-style: outset;
+
         display: flex;
         align-items: center;
         justify-content: center;

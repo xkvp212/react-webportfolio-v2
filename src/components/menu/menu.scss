@@ -29,6 +29,9 @@
     font-size: 25px;
     color: white;
     width: 67%;
+    @include mobile {
+      width: 75%;
+    }
   }
   li {
     margin-bottom: 25px;

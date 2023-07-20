@@ -1,6 +1,6 @@
 import "./works.scss";
 import { useState } from "react";
-import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
+import { TfiAngleLeft, TfiAngleRight } from "react-icons/tfi";
 
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -19,7 +19,8 @@ export default function Works() {
       desc:
         "A serverless application for sending email or SMS. S3, CloudFront, Route53, Lambda, StepFunctions, SES, SNS, Api Gateway",
       img: "assets/serverless-sending-app1.png",
-      link: "https://cloudprojects.site",
+      link:
+        "http://sending-message-app.s3-website-ap-southeast-2.amazonaws.com/",
       codeurl: "https://github.com/xkvp212/aws-messaging-app"
     },
     {
@@ -40,6 +41,9 @@ export default function Works() {
 
   return (
     <div className="works" id="works">
+      <div className="title">
+        <h1>Projects</h1>
+      </div>
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
@@ -65,18 +69,18 @@ export default function Works() {
           </div>
         ))}
       </div>
-      <MdKeyboardArrowLeft
+      <TfiAngleLeft
         className="arrow left"
-        size="100"
-        color="white"
+        size="45"
+        color="#6f0000"
         onClick={() => handleClick("left")}
-      ></MdKeyboardArrowLeft>
-      <MdKeyboardArrowRight
+      ></TfiAngleLeft>
+      <TfiAngleRight
         className="arrow right"
-        size="100"
-        color="white"
+        size="45"
+        color="#6f0000"
         onClick={() => handleClick()}
-      ></MdKeyboardArrowRight>
+      ></TfiAngleRight>
     </div>
   );
 }

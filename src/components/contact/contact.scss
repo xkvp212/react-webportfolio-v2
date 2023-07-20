@@ -27,11 +27,19 @@
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: calc(100vh-70px);
+  height: calc(100vh-75px);
+
+  @include mobile {
+    height: calc(100vh-60px);
+  }
 
   .container {
     flex-grow: 1;
     padding-top: 30px;
+
+    @include mobile {
+      padding-top: 0;
+    }
 
     h1 {
       padding: 15px;
@@ -49,12 +57,16 @@
       input {
         width: 300px;
         height: 30px;
+        border: 1px outset rgb(243, 243, 243);
+        border-radius: 5px;
       }
 
       textarea {
         width: 300px;
         height: 200px;
         font-size: 14px;
+        border: 1px outset rgb(243, 243, 243);
+        border-radius: 5px;
       }
 
       button {
